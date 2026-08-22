@@ -47,6 +47,9 @@ Export-SnipeitData.ps1 -ApiBaseUrl 'https://snipeit.domain.com' -SecureApiKey (R
 
 Export Snipe-IT data to CSV files, then delete exported files that are 90 days or older.
 #>
+
+#Requires -Modules SnipeitPS
+
 param(
     [Parameter(Mandatory)]
     [ValidateNotNull()]
