@@ -1,0 +1,2 @@
+Manufacturer;File;Argument;InstallValidationPath;InstallOrder
+*;jdk-17.0.12_windows-x64_bin.msi;/qn /norestart;HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{DA08718E-972A-58E7-AE7E-C45114C82E13};0

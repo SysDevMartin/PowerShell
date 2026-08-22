@@ -1,0 +1,2 @@
+Manufacturer;File;Argument;InstallValidationPath;InstallOrder
+*;setup.exe;/configure "%DIR%\config.xml";HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\O365BusinessRetail*;0
