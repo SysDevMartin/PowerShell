@@ -123,9 +123,6 @@ function New-WifiProfile {
     return $path
 }
 
-('Test: {0}' -f (Get-Date)) | Out-File -FilePath (Join-Path -Path $env:TEMP -ChildPath ('Test_{0}.txt' -f (Get-Date -Format 'yyyy-MM-dd_HHmmss')))
-exit
-
 Start-Sleep -Seconds 10
 
 if ((Test-InstalledWifiProfile -SSID $SSID) -eq $false) {
