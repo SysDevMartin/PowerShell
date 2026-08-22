@@ -37,7 +37,7 @@ Compresses files to multiple archive files.
 
 .DESCRIPTION 
 This script takes filtered files from a folder and compresses them to multiple output archive files (with limited size or file count per output archive).
-Set FileSizeByteLimit to 0 for infinite file size per archive. Set FileSizeCountLimit to 0 for infinite file count per archive.
+Set FileSizeByteLimit to 0 for infinite file size per archive. Set FileCountLimit to 0 for infinite file count per archive.
 
 .INPUTS
 None
@@ -46,7 +46,7 @@ None
 .None
 
 .EXAMPLE
-Compress-ToMultipleArchiveFiles -Path "$env:USERPROFILE\Downloads" -Filter "*.pdf" -Destination "$env:USERPROFILE\Desktop" -FileSizeByteLimit 100000 -FileSizeCountLimit 10
+Compress-ToMultipleArchiveFiles -Path "$env:USERPROFILE\Downloads" -Filter "*.pdf" -Destination "$env:USERPROFILE\Desktop" -FileSizeByteLimit 100000 -FileCountLimit 10
 
 #>
 param(
@@ -65,7 +65,7 @@ param(
     $FileSizeByteLimit = 0,
 
     [ValidateNotNull()]
-    $FileSizeCountLimit = 0
+    $FileCountLimit = 0
 )
 
 # Loop through the files and compress them.
