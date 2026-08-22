@@ -1,4 +1,3 @@
-#Requires -Modules SnipeitPS
 <#PSScriptInfo
 
 .VERSION 1.0.0
