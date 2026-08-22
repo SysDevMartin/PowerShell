@@ -3,7 +3,7 @@
 Clear executed commands from your terminal history.
 
 .DESCRIPTION
-This function clears previously executed commands from the current session and the commands that are stored in the PSReadLine history file.
+This function clears previously executed commands that are stored in the PSReadLine history file.
 
 .INPUTS
 None.
