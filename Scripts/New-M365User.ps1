@@ -41,6 +41,9 @@ This script generates credentials and creates M365 accounts for new users.
 .EXAMPLE
 New-M365User.ps1 -ConfigurationPath 'C:\HR\Onboarding-Config.psd1'
 #>
+
+#Requires -Modules ExchangeOnlineManagement, Microsoft.Graph.Users
+
 param(
     [string]$Organization,
 
