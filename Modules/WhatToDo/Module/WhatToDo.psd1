@@ -101,7 +101,7 @@ PrivateData = @{
         # LicenseUri = ''
 
         # A URL to the main website for this project.
-        ProjectUri = 'https://github.com/SysadminMartin/WhatToDo'
+        # ProjectUri = 'https://github.com/SysDevMartin/PowerShell/tree/main/Modules/WhatToDo'
 
         # A URL to an icon representing this module.
         # IconUri = ''
