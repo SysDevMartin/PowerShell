@@ -31,7 +31,7 @@
     Report = @{
         DirectoryPath = '\\server\esd\reports'
         FileRetentionCount = 13 # Number of exported report files to keep before deleting old ones. 0 = unlimited.
-        Title = 'ESD-rapport'
+        Title = 'ESD test report'
         DateFormat = 'yyyy-MM-dd'
         TemplatePaths = @{
             MainReportHeader = 'C:\Users\Username\Documents\Scripts\Export-EsdReport\templates\MainReportHeader.html'
